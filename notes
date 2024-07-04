@@ -1,0 +1,74 @@
+<!-- Simple Selectors -select ement based on name,id,class
+ id -  
+ class -
+ element - 
+ universal -
+  -->
+
+ <!-- Combinator Selectors - select element based on specific relationship between them
+
+ Descendant - selecting all elements inside the parent tag (space)
+ child - directly selecting child elements to the parent tag (>)
+ adjacent sibling - direct selecting first sibling after the parent tag (+)
+ general sibling - direct selecting all sibling elements after the parent tag (~)
+ -->
+
+<!-- pseudo class Selectors : - select element based on certain state
+:root - any values store in the root tag and use anywhere in the css through out the properties in variable
+:first-child and :last child - selecting specific last and first element
+:nth-child :nth-last-child select item individually in the elements
+:nth-of-type :nth-last-of-type select without parent tag
+:only-child must be one parent child 
+:only-of-type parent is not important elements msut be unique type
+:first-of-type :last-of-type select particular elements first and last element wit or without parent tag
+:empty select empty elements 
+:not it works oppostily from tags p:not(.para){}
+:lang langauge attributer select specific element 
+:link :hover :active :visited all of them using in links
+:target target the specific element through the links
+:Focus this method is using in forms it will focus on the forms input
+:checked using this method in checkbox
+:enabled
+:diasbled
+:optional
+:required
+:readonly
+readwrite
+:valid
+:invalid
+:default
+:selected
+:is
+
+Pseudo elements ::
+::before
+::after
+::first-line
+::selection
+::placeholder
+
+
+
+Transition in css
+smooth animation between prperty values
+
+transition property
+transition duration
+transistion delay
+transition timing function : linear, ease, ease in, ease out, ease in-out;
+transition
+
+flex box
+using in one dimensional
+works on main axis and cross axis
+properties like
+flex direction
+flex wrap
+flex shrink
+flex grow
+justify content - align horizontally (main axis)
+align items - default align property
+align self - align anywhere in differnt structure
+align content - align vertically (cross axis)
+item order
+-->

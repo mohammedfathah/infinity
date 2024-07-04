@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+
+body{
+    box-sizing: border-box;
+    background-color: rgb(214, 214, 214,0.5);
+    height: 100vh;
+    width: 100vw;
+    font-family: "Teachers", sans-serif;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #b800e6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+#logo{
+    display: inline-block;
+    font-size: 40px;
+    line-height: 20px;
+    overflow: hidden;
+    color: white;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 300px;
+}
+.nav-links li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.bdy_head{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    margin-left: 90px;
+    align-items: center;
+
+
+}
+.bdy_head h2{
+    font-size: 50px;
+    margin: 20px;
+}
+input{
+    width: 200px;
+    height: 30px;
+    margin-right: 110px;
+    line-height: 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0);
+    padding-left: 20px;
+
+
+}
+input::placeholder{
+    padding: 2px;
+    color: black;
+    font-size: 15px;
+
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.box{
+    
+    border-top: #b800e6 10px solid;
+    border-radius: 5px;
+    width: 300px;
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0,0.2);
+
+}
+.box h5{
+    font-size: 20px;
+    margin: 10px 0;
+}
+.box .para{
+    text-align: justify;
+    user-select: none;
+}
